@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra đối xứng</title>
+</head>
+<body>
+<script>
+    function CheckPalindrome() {
+        let value = str.split('');
+        let daoValue = value.reverse();
+        let arr = daoValue.join('');
+        if (str == arr) {
+            console.log('Is a Palindrome')
+        } else {
+            console.log('Is not a Palindrome')
+        }
+    }
+    let str = prompt('Enter String')
+    CheckPalindrome()
+</script>
+</body>
+</html>
